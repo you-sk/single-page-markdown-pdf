@@ -1,0 +1,85 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #212529;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 700px;
+    margin: 20px;
+}
+textarea {
+    width: 100%;
+    min-height: 250px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+input[type="file"] {
+    margin-bottom: 25px;
+    display: block;
+    color: #495057;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.075);
+}
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #495057;
+}
+#status {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    min-height: 1.5em;
+}
+#pdf-content-area {
+    position: absolute;
+    left: -99999px;
+    top: -99999px;
+    background: white;
+    width: 210mm; /* A4 width */
+}

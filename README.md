@@ -28,9 +28,20 @@
 ### 2. ローカル環境で利用する
 
 1.  このリポジトリをクローンまたはダウンロードします。
-2.  `index.html` (またはリネームしたHTMLファイル) をお使いのウェブブラウザ（Chrome, Firefoxなど）で開きます。
+2.  `index.html` をお使いのウェブブラウザ（Chrome, Firefoxなど）で開きます。
 3.  Webページ版と同様に利用できます。
     ※ ライブラリをCDNから読み込んでいるため、ローカルでの利用時もインターネット接続が必要です。
+
+## 📁 ファイル構成
+
+```
+single-page-markdown-pdf/
+├── index.html    # メインのHTMLファイル
+├── styles.css    # スタイルシート
+├── script.js     # JavaScriptコード
+├── README.md     # このファイル
+└── LICENSE       # ライセンスファイル
+```
 
 ## 🛠️ 使用技術
 
